@@ -1,3 +1,5 @@
+package Serialize;
+
 import java.io.Serializable;
 
 public class User implements Serializable {
@@ -16,29 +18,9 @@ public class User implements Serializable {
         this.gender = gender;
     }
 
-    public int getLifelevel() {
-        return lifelevel;
-    }
-
-    public int getManaLevel() {
-        return manaLevel;
-    }
-
-    public int getLevel() {
-        return level;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
     @Override
     public String toString() {
-        return "User{" +
+        return "Serialize.User{" +
                 "lifelevel=" + lifelevel +
                 ", manaLevel=" + manaLevel +
                 ", level=" + level +

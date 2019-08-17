@@ -1,3 +1,5 @@
+package SAX;
+
 public class Worker {
 
    private String login;
@@ -15,9 +17,6 @@ public class Worker {
         this.sinceYear = sinceYear;
     }
 
-    public Worker() {
-    }
-
     public String getLogin() {
         return login;
     }
@@ -32,21 +31,5 @@ public class Worker {
 
     public String getSinceYear() {
         return sinceYear;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public void setPosition(String position) {
-        this.position = position;
-    }
-
-    public void setCompany(String company) {
-        this.company = company;
-    }
-
-    public void setSinceYear(String sinceYear) {
-        this.sinceYear = sinceYear;
     }
 }
